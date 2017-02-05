@@ -123,17 +123,17 @@ exports.toAttribs = function(attribs, names) {
  */
 
 exports.getLang = function(attribs) {
-  if (typeOf(attribs) === 'object') {
-    var lang = get(attribs, 'data-lang')
-      || get(attribs, 'data-language')
-      || get(attribs, 'class') || '';
+  attribs = attribs || {};
+  var lang = get(attribs, 'data-lang') || get(attribs, 'data-language') || '';
+  var classLang = get(attribs, 'class') || '';
 
-    var match = /lang(?:uage)?-([^\s]+)/.exec(lang);
-    if (match) {
-      return match[1];
-    }
+  var regex = /lang(?:uage)?-([^\s]+)/;
+  var match = regex.exec(lang) || regex.exec(classLang);
+  if (match) {
+    return match[1];
   }
-  return '';
+
+  return lang;
 };
 
 /**
