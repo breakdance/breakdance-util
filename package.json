@@ -2,11 +2,11 @@
   "name": "breakdance-util",
   "description": "Utility functions for breakdance plugins.",
   "version": "0.1.2",
-  "homepage": "https://github.com/jonschlinkert/breakdance-util",
+  "homepage": "https://github.com/breakdance/breakdance-util",
   "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
-  "repository": "jonschlinkert/breakdance-util",
+  "repository": "breakdance/breakdance-util",
   "bugs": {
-    "url": "https://github.com/jonschlinkert/breakdance-util/issues"
+    "url": "https://github.com/breakdance/breakdance-util/issues"
   },
   "license": "MIT",
   "files": [
