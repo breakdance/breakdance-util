@@ -1,0 +1,63 @@
+{
+  "name": "breakdance-util",
+  "description": "Utility functions for breakdance plugins.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/jonschlinkert/breakdance-util",
+  "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
+  "repository": "jonschlinkert/breakdance-util",
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/breakdance-util/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "diacritics-map": "^0.1.0",
+    "get-value": "^2.0.6",
+    "is-self-closing": "^1.0.0",
+    "kind-of": "^3.1.0",
+    "snapdragon-util": "^1.0.2",
+    "strip-color": "^0.1.0",
+    "typeof-article": "^0.1.1",
+    "word-regex": "^0.1.1"
+  },
+  "devDependencies": {
+    "breakdance": "^0.1.4",
+    "gulp-format-md": "^0.1.11"
+  },
+  "keywords": [
+    "breakdance",
+    "compile",
+    "compiler",
+    "convert",
+    "generategenerator",
+    "html",
+    "markdown",
+    "parse",
+    "parser",
+    "render",
+    "transform",
+    "util"
+  ],
+  "verb": {
+    "toc": false,
+    "layout": "default",
+    "tasks": [
+      "readme"
+    ],
+    "plugins": [
+      "gulp-format-md"
+    ],
+    "lint": {
+      "reflinks": true
+    }
+  }
+}
