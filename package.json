@@ -31,7 +31,8 @@
   },
   "devDependencies": {
     "breakdance": "^0.1.4",
-    "gulp-format-md": "^0.1.11"
+    "gulp-format-md": "^0.1.11",
+    "mocha": "^3.2.0"
   },
   "keywords": [
     "breakdance",

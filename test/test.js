@@ -1,5 +1,6 @@
 'use strict';
 
+require('mocha');
 var Breakdance = require('breakdance');
 var assert = require('assert');
 var utils = require('..');
@@ -8,19 +9,6 @@ var breakdance;
 describe('utils', function() {
   beforeEach(function() {
     breakdance = new Breakdance();
-  });
-
-  describe('.isInside', function() {
-    var state = {
-      inside: {
-        ol: true,
-        ul: false
-      },
-    };
-
-    it('should support passing regex to .isInside', function() {
-
-    });
   });
 
   describe('.toAttribs', function() {

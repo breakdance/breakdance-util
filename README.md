@@ -113,6 +113,7 @@ breakdance.set('img', function(node) {
 
 * [breakdance-checklist](https://www.npmjs.com/package/breakdance-checklist): Plugin that adds checklist rendering support to breakdance, similar to task lists in github-flavored-markdown. | [homepage](https://github.com/jonschlinkert/breakdance-checklist "Plugin that adds checklist rendering support to breakdance, similar to task lists in github-flavored-markdown.")
 * [breakdance](https://www.npmjs.com/package/breakdance): Breakdance is a node.js library for converting HTML to markdown. Highly pluggable, flexible and easy… [more](http://breakdance.io) | [homepage](http://breakdance.io "Breakdance is a node.js library for converting HTML to markdown. Highly pluggable, flexible and easy to use. It's time for your markup to get down.")
+* [generate-breakdance](https://www.npmjs.com/package/generate-breakdance): Generate a new breakdance plugin project. | [homepage](https://github.com/generate/generate-breakdance "Generate a new breakdance plugin project.")
 
 ### Contributing
 
