@@ -14,7 +14,7 @@
   ],
   "main": "index.js",
   "engines": {
-    "node": ">=4"
+    "node": ">=4.7"
   },
   "scripts": {
     "test": "mocha"
@@ -24,13 +24,13 @@
     "get-value": "^2.0.6",
     "is-self-closing": "^1.0.0",
     "kind-of": "^3.1.0",
-    "snapdragon-util": "^1.0.2",
+    "snapdragon-util": "^1.0.6",
     "strip-color": "^0.1.0",
     "typeof-article": "^0.1.1",
     "word-regex": "^0.1.1"
   },
   "devDependencies": {
-    "breakdance": "^0.1.4",
+    "breakdance": "^0.1.7",
     "gulp-format-md": "^0.1.11",
     "mocha": "^3.2.0"
   },
@@ -39,7 +39,6 @@
     "compile",
     "compiler",
     "convert",
-    "generategenerator",
     "html",
     "markdown",
     "parse",
@@ -60,8 +59,8 @@
     "related": {
       "list": [
         "breakdance",
-        "generate-breakdance",
-        "breakdance-checklist"
+        "breakdance-checklist",
+        "generate-breakdance"
       ]
     },
     "lint": {
